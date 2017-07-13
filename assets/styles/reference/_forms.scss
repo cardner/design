@@ -1,5 +1,3 @@
-@import "duo/variables";
-@import "duo/mixins";
 
 form:not(.inline) {
   @include box;

@@ -1,5 +1,5 @@
-@import "duo/variables";
-@import "../patterns/colors/colors";
+@import "../../../node_modules/pattern-library/assets/styles/reference/duo/variables";
+@import "../../../node_modules/pattern-library/assets/styles/reference/duo/mixins";
 
 #user-table_wrapper {
     min-width: 745px;

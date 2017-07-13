@@ -1,10 +1,5 @@
-@import "../fonts/antenna/antenna.css";
-@import "../fonts/open-sans/open-sans.css";
-@import "fonts/duo-admin/duo-admin.scss";
 //Import duo trusted path style sheets
 @import "reference/duo";
-@import "reference/colors";
-@import "reference/duo/variables";
 
 // 1 Global Variables
 
@@ -160,6 +155,7 @@ $items: 6;
   border-radius: 3px;
   border: 2px solid $light-border-color;
   max-height: 900px;
+  margin-right: 0;
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-transition: max-height ease 0.8s;

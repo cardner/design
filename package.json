@@ -1,6 +1,6 @@
 {
   "name": "pattern-library",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Duo Design Standards",
   "private": true,
   "scripts": {
@@ -30,5 +30,8 @@
     "gulp-sass": "^2.3.2",
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
+  },
+  "dependencies": {
+    "pattern-library": "https://github.com/duosecurity/design.git#v1.0.4-lw"
   }
 }

@@ -12,8 +12,6 @@
 //   <div class="col-2-3"></div>  <-- span 2 of three columns
 // </div>
 
-@import "duo/mixins";
-
 @mixin grid {
     @include clearfix;
 }

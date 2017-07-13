@@ -6,30 +6,18 @@ $app-version: '1.1.0';
 $deprecate-mode: 'verbose';
 @import "deprecate";
 
-@import "colors";
-@import "duo/variables";
-@import "duo/mixins";
-@import "duo/extends";
+@import "../../../node_modules/pattern-library/assets/styles/base"; // This pulls in the base patterns along with fonts and variables
 
-@import "duo-base";
-@import "../patterns/icons/base";
-@import "fonts/ss-standard";
-@import "../patterns/typography/base";
-@import "../patterns/links/base";
+// These are all the styles needed to render the non modulalized portions of the pattern library website
 @import "base";
-@import "../patterns/navigation/base";
 @import "progress";
 @import "box";
 @import "forms";
 @import "messages";
 @import "modals";
 @import "datatables";
-@import "../patterns/buttons/base";
-@import "../patterns/metric-card/base";
-@import "../patterns/insight-graphs/base";
 @import "header";
 @import "grid";
 @import "carousel";
 @import "root-index";
 @import "users-index";
-@import "base";
